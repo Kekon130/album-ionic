@@ -5,11 +5,11 @@ import './AlbumCard.css';
 const AlbumCard: React.FC = () => {
 	return (
 		<IonCard className="album-card">
-			<div className="album-cover">Album Cover</div>
+			<div className="album-cover">Thumbnail</div>
 			<IonCardContent>
 				<p className="card-description">
 					This is a wider card with supporting text below as a natural lead-in to additional
-					content.
+					content. This content is a little bit longer.
 				</p>
 				<div className="card-footer">
 					<div className="card-buttons">
@@ -20,7 +20,7 @@ const AlbumCard: React.FC = () => {
 							Edit
 						</IonButton>
 					</div>
-					<span className="time-text">9 mins ago</span>
+					<span className="time-text">9 mins</span>
 				</div>
 			</IonCardContent>
 		</IonCard>

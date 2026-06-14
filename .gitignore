@@ -33,4 +33,9 @@ yarn-error.log*
 pnpm-lock.yaml
 pnpm-workspace.yaml
 
+<<<<<<< HEAD
 *.pdf
+=======
+android
+ios
+>>>>>>> 23ce9ed (Project finished)
